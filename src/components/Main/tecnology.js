@@ -6,7 +6,7 @@ const Technology= () => {
 
     return (
         <section>
-            <h3>Technology I Can Use</h3>
+            <h3>Tech Stack</h3>
             {techStack.map((tech)=>{
 
                 return <img src={tech.tech_image} atl={tech.tech_name} />

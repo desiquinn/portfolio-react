@@ -10,7 +10,7 @@ const CaseStudies = () => {
 
     return(
         <section>
-            <h3>Other Case Studies</h3>
+            <h3>Case Studies</h3>
             <div>
                 {caseStudies.map((project) => {
                     if(!project.featured) {
