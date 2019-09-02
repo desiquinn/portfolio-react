@@ -19,6 +19,11 @@ const NewProjectForm = () => {
         })
     }
 
+    const handleSubmit= (event) => {
+        event.preventDefault();
+        console.log(event)
+    }
+
 
     return (
         <div>

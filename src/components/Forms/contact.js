@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 
-const NewProjectForm = () => {
+const Contact = () => {
     const[message, setMessage] = useState({
         name: "",
         email: "",
@@ -14,6 +15,11 @@ const NewProjectForm = () => {
             ...message,
             [event.target.name]:event.target.value
         })
+    }
+
+    const handleSubmit= (event) => {
+        event.preventDefault();
+        console.log(event)
     }
 
 
@@ -58,7 +64,7 @@ const NewProjectForm = () => {
             <div>
                 <h4>Send Me a Message</h4>
                 <p>Use this form for general inquiries.  If you want to start a new project with me please visit
-                    the New Project Form to tell me more about your vision.  
+                    the <Link to="/newproject">New Project</Link> Form to tell me more about your vision.  
                 </p>
         
                 <form onSubmit={handleSubmit}>
@@ -97,4 +103,4 @@ const NewProjectForm = () => {
     )
 };
 
-export default NewProjectForm;
+export default Contact;
