@@ -5,6 +5,7 @@ export const projects = [
         image:'',
         deployed_link: '',
         github_link: '',
+        description: '',
         pitch: '',
         tech_stack: [
             {   tech_name: '',
@@ -33,6 +34,7 @@ export const projects = [
         image:'',
         deployed_link: '',
         github_link: '',
+        description: '',
         pitch: '',
         tech_stack: [
             {   tech_name: '',
