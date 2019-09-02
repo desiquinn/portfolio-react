@@ -3,9 +3,11 @@ import React from 'react';
 const HeaderTwo = () => {
 
     return (
-        <div>
-
-        </div>
+        <header>
+            {/* {Background will be an image} */}
+            <img src="#" atl="Desi Quinn Logo" />
+            <h2>Portfolio</h2>
+        </header>
     )
 }
 
