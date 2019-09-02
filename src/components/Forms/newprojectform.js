@@ -29,10 +29,9 @@ const NewProjectForm = () => {
         <div>
         <h3>New Project</h3>
         <p>Do you have a project that you would like to collaborate on?</p>
-        <p>Fill out the form below and tell me all about your idea.
+        <p>Fill out the form below and tell me all about your ideas.
             I will reach out to you shortly to schedule a time for us to talk
-            more about your vision.  If we are good fit then I'll send you a
-            quote and we can talk about your timeline.</p>
+            more about your vision and your timeline.</p>
         
         <form onSubmit={handleSubmit}>
             <label>Name</label>

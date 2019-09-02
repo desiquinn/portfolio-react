@@ -27,7 +27,7 @@ const Contact = () => {
         <div>
             <div>
                 <h3>Employers</h3>
-                <p>I am currently looking for full time employment.
+                <p>I am currently looking for full time employment as a Full Stack Web Developer.
                     If you'd like to interview me, please contact me in the following ways:
                     Phone Number: (704)819-2526
                     Email: desiquinncompany@gmail.com
@@ -47,15 +47,15 @@ const Contact = () => {
             <div>
                 <h4>Where to Email?</h4>
                 <p>Hire Me Full Time:</p>
-                <p>Collaborate With Me:</p>
+                <p>New Project Inquiries:</p>
                 <p>General Questions:</p>
-                <p>Speaking Engagements:</p>
+                <p>Press and Promotions:</p>
 
                 <h4>Other Ways to Contact Me</h4>
                 <img src="#" atl="phone number" />
                 <p>Phone Number: 704-819-2526</p>
                 <img src="#" atl="address" />
-                <p>Mail: 
+                <p>Send Mail to: 
                     Desiree Morris
                     4652 Perth Ct
                     Apt. 6 
@@ -63,8 +63,8 @@ const Contact = () => {
             </div>
             <div>
                 <h4>Send Me a Message</h4>
-                <p>Use this form for general inquiries.  If you want to start a new project with me please visit
-                    the <Link to="/newproject">New Project</Link> Form to tell me more about your vision.  
+                <p>Use this form for general inquiries only.  If you want to start a new project with me please fill out
+                    the <Link to="/newproject">New Project Form </Link> to tell me more about your vision.  
                 </p>
         
                 <form onSubmit={handleSubmit}>
