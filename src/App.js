@@ -11,8 +11,6 @@ import Contact from './components/Forms/contact.js';
 import NewProjectForm from './components/Forms/newprojectform.js';
 
 
-import './App.css';
-
 function App() {
   return (
     <div>
